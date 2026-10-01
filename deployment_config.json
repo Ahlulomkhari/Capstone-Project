@@ -1,0 +1,34 @@
+{
+  "feature_columns": [
+    "EMPLOYMENT_TYPE",
+    "DISBURSED_AMOUNT",
+    "ASSET_COST",
+    "LTV",
+    "DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS",
+    "PAN_FLAG",
+    "DRIVING_FLAG",
+    "PASSPORT_FLAG",
+    "AGE",
+    "DISBURSAL_MONTH",
+    "AVERAGE_ACCT_AGE_MONTHS",
+    "CREDIT_HISTORY_LENGTH_MONTHS",
+    "HAS_BUREAU_SCORE",
+    "CREDIT_RISK_GRADE",
+    "LOAN_TO_ASSET_RATIO",
+    "TOTAL_ACCTS",
+    "TOTAL_ACTIVE_ACCTS",
+    "TOTAL_OVERDUE_ACCTS",
+    "TOTAL_CURRENT_BALANCE",
+    "TOTAL_SANCTIONED_AMOUNT",
+    "TOTAL_DISBURSED_AMOUNT_BUREAU",
+    "TOTAL_INSTALLMENT_AMT",
+    "INSTALLMENT_TO_DISBURSED_RATIO",
+    "DELINQUENCY_RATE",
+    "ID_DOCS_PROVIDED"
+  ],
+  "tuned_thresholds": {
+    "xgboost": 0.2,
+    "random_forest": 0.28,
+    "logistic_regression": 0.5300000000000001
+  }
+}
